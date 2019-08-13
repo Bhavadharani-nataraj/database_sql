@@ -1,0 +1,6 @@
+INSERT into hospital VALUES(1,'diya','nataraj',5,'f',9584763200);
+select * from hospital;
+ALTER TABLE hospital
+ADD Email varchar(255);
+UPDATE hospital set email='nghfh28@gmail.com' WHERE id=1
+SELECT * FROM hospital;
