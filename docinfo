@@ -1,0 +1,8 @@
+create TABLE docinfo(did int,name varchar(20),specialization varchar(20),phoneno varchar(10),ava_time char(4) CHECK(ava_time in('mor','noon','eve')));
+INSERT INTO docinfo VALUES(1,'rohini','cardiologist',6785846464,'eve');
+SELECT * FROM docinfo;
+INSERT INTO docinfo VALUES(2,'bhava','cardiologist',6783846465,'mor');
+INSERT INTO docinfo VALUES(3,'san','ent',7508404074,'noon');
+INSERT INTO docinfo VALUES(4,'nat','ortho',7509675678,'noon');
+INSERT INTO docinfo VALUES(5,'ro','ent',7509687678,'eve');
+SELECT * FROM docinfo;
