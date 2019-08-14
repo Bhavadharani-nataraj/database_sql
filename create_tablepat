@@ -18,3 +18,4 @@ INSERT into hospital VALUES(9,'sita','gutham',16,'f',9584763204,'cgftnj@gmail.co
 INSERT into hospital VALUES(10,'arjun','thiru',43,'m',9584763698,'fdfgbf@gmail.com');
 SELECT * FROM hospital;
 SELECT  count(gender) FROM hospital WHERE gender='m';
+SELECT p1.pid,firstname,gender,consult_date from hospital p1 JOIN consultation c1 on c1.pid=p1.pid;
