@@ -2,3 +2,6 @@ CREATE TABLE consultation(pid int,fees int,health varchar(20),consult_date date,
 INSERT into consultation values(1,200,'fever',date());
 SELECT * FROM consultation;
 SELECT pid,fees,health,consult_date from consultation;
+SELECT min(fees) FROM consultation;
+SELECT name FROM docinfo GROUP BY ava_time;
+SELECT firatname FROM hospital ORDER by pid DESC;
